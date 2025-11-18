@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>menu</title>
+<style>
+	body {
+      margin: 0;
+      padding: 0;
+      background: url('木目調.jpg') no-repeat center center fixed;
+      background-size: cover;
+	  background-attachment: fixed
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #fff;
+	}
+	
+	body::before{
+	  content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(255,255,255,0.3); 
+      z-index: -1;
+	}
+	
+</style>
+<link href="menu.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="menu-container">
+<h1>Price List</h1>
+	
+<section class="menu-section container" aria-labelledby="italian-heading">
+
+  <!-- 前菜 -->
+  <div class="food-category">
+    <h3>前菜（Antipasti）</h3>
+    <ul class="food-list">
+      <li>カプレーゼ（トマトとモッツァレラ）<span class="price">850円</span></li>
+      <li>生ハムとルッコラのサラダ<span class="price">900円</span></li>
+      <li>ブルスケッタ（トマト・バジル）<span class="price">700円</span></li>
+	　<img src="caprese.jpg" alt="メイン" class="category-photo">
+    </ul>
+  </div>
+
+  <!-- パスタ -->
+  <div class="food-category">
+    <h3>パスタ（Pasta）</h3>
+    <ul class="food-list">
+      <li>カルボナーラ（ベーコン・卵・チーズ）<span class="price">1,300円</span></li>
+      <li>ジェノベーゼ（バジルソース）<span class="price">1,250円</span></li>
+	  <li>本日のお任せ<span class="price">1,250円</span></li>
+	  <img src="pasta.jpg" alt="パスタ" class="category-photo">
+    </ul>
+  </div>
+
+  <!-- ピザ -->
+  <div class="food-category">
+    <h3>ピザ（Pizza）</h3>
+    <ul class="food-list">
+      <li>マルゲリータ（トマト・モッツァレラ・バジル）<span class="price">1,400円</span></li>
+      <li>クアトロフォルマッジ（4種のチーズ）<span class="price">1,600円</span></li>
+      <li>プロシュート（生ハム・ルッコラ）<span class="price">1,550円</span></li>
+    </ul>
+  </div>
+
+  <!-- メイン料理 -->
+  <div class="food-category">
+    <h3>メイン料理（Secondi）</h3>
+    <ul class="food-list">
+      <li>チキンのトマト煮込み<span class="price">1,500円</span></li>
+      <li>牛肉の赤ワイン煮込み<span class="price">1,800円</span></li>
+      <li>自家製ローストビーフ<span class="price">1,600円</span></li>
+	　<img src="roastbeaf.jpg" alt="メイン" class="category-photo">
+    </ul>
+  </div>
+	<p><a href="index.html">戻る</a></p>
+</section>
+
+
+</div>
+</body>
+</html>

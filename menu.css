@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	font-size: 1.5em;
+	font-family: 'Playfair Display',serif;
+	color: white;
+	text-align: center;
+}
+
+.menu-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  max-width: 700px;
+  margin: 80px auto;
+  border-radius: 10px;
+}
+
+.food-category {
+  margin-bottom: 32px;
+}
+
+.food-category h3 {
+  font-size: 1.4em;
+  font-family: 'Playfair Display',serif;
+  color: orange;
+  margin-bottom: 12px;
+}
+
+.food-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.food-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  transition: background 0.2s ease;
+}
+.food-list li:hover {
+  background: #20242d;
+}
+
+.price {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.category-photo {
+  width: 100%;         
+  max-width: 200px;     
+  height: auto;        
+  display: block;
+  margin: 1rem auto;    
+  border-radius: 12px;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5); 
+}
